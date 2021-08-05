@@ -15,6 +15,10 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'preservim/nerdtree'                           "File tree"
 Plug 'itchyny/lightline.vim'                        "statusline/tabline"
 Plug 'mengelbrecht/lightline-bufferline'            "Buffer for statusline"
+Plug 'autozimu/LanuageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh'
+    \ }
 call plug#end()
 syntax on
 colorscheme space-vim-dark "The Pink and Green look nice together"
